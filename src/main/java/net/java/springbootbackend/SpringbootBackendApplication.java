@@ -18,7 +18,7 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 	 private UserRepository userRepository;
 	@Override
 	public void run(String... args) throws Exception {
-//		User  user=new User();
+//		User  user=new User();nn
 //		user.setFirstName("Sithara");
 //		user.setLastName("Sandeepani");
 //		user.setEmailId("sithara@gmail.com");
