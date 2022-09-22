@@ -58,7 +58,7 @@ public class UserController {
     public ResponseEntity<HttpStatus> deleteUser(@PathVariable long id) {
 
         User employee = userRepository.findById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Employee not exist with id: " + id));
+                .orElseThrow(() -> new ResourceNotFoundException("Employee not exist with  id: " + id));
 
         userRepository.delete(employee);
 
